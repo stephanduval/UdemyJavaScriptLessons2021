@@ -1,3 +1,31 @@
 h2 {
 	color: blue;
 }
+
+
+p {
+	font-size: 25px;
+}
+
+
+span {
+	font-size: 2em;
+	/* em means five times the containing element*/
+	/* rem relates to the route element*/
+}
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	/*pading order: top, right bootom, left */
+	/* also: padding-bottm padding-left etc */
+	margin: 0px 20px 0px 20px;
+	/* or margin-top, margin-right etc */
+	/* also if you only put two values then top and bottom are the same
+		and left and right are the same:
+		margin: 0px 20px;
+	*/
+	width: 33px;
+	height: 55px;
+	text-transform: capitalize;
+}
