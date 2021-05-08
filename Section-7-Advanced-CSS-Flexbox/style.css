@@ -1,0 +1,74 @@
+.droplet {
+  background: mediumaquamarine;
+  border-radius: 2% 50%;
+  height: 100px;
+  margin: 100px;
+
+  transition-timing: ease-in-out;
+  width: 100px;
+}
+  
+.droplet:hover {
+	transition: all 2s;
+    transform: rotate(1080deg);
+}
+
+
+
+
+/* We want to set a body margin of 0
+ to overide the browser default margin */
+
+body {
+	margin: 0px;
+} 
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	margin-top: 10px;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	/*In the center of 400px*/
+	text-align: center; 
+	box-shadow: 4px 4px 5px #888888
+	
+}
+
+
+
+img {
+	width: 450px;
+	height: 350px;
+	margin: 10px;
+	/*Sets the transition time. Can also be defined under hover*/
+	transition: all 5s;
+
+
+}
+
+img:hover {
+	/* defines a transition that will 
+	occur over the transition time */
+	transform: scale(1.05) ;
+}
+
+
+.semicircle {
+	background: teal;
+	position: absolute;
+	right: 100px;
+	top: 40px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50% 50% 0% 0%;
+}
