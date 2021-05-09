@@ -1,0 +1,76 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(laptop.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+
+}
+
+h1 {
+	font-size: 2rem;
+	color: #212259;
+	/* text-align: center; We centered it using the div
+	 text-center bootstrap class */
+}
+
+/* hard rule styling */
+
+hr {
+	margin: auto;
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+
+}
+
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+/* called btn-xl because it makes btn bigger */
+.btn-xl {
+	color: white;
+	padding: 1rem 2rem; ;
+
+}
+
+
+/* This extends the bootstrap button primary class */
+.btn-primary {
+	background-color: #F05F44;
+	border-color: #F05F44;
+
+
+}
+
+.btn-primary:hover {
+		background-color: orange;
+		border-color: orange;
+		border-width: 1.5px;	
+}
+
+
+/* This class centers whatever it is applied to in the html 
+but we will center it in bootstrap's layout grid */
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+}
+
+
+.buffer {
+	height: 10rem;
+}
