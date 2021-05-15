@@ -2,8 +2,6 @@ var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var space = document.createTextNode(" ");
-var baseID = 1
-
 
 function inputLength() {
     return input.value.length
@@ -19,16 +17,13 @@ function createListElement() {
     li.appendChild(document.createTextNode(input.value));
     li.appendChild(space);
     li.appendChild(createDeleteButton);
-    
     li.setAttribute('id', input.value);
+
     li.onclick = function () {
         this.remove();
     };
-    //document.getElementById(input.value).addEventListener("click", document.getElementById("enter").remove());
-    baseID += 1;
     //The Whole Beast: 
     //document.querySelector("ul").appendChild(document.createElement("li"))
-    
     ul.appendChild(li);  
     input.value = "";
 }
