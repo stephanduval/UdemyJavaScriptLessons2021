@@ -1,0 +1,5 @@
+create-react-app appname
+
+The new way is 
+
+npx create-react-app appname

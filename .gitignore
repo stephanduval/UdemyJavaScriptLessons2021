@@ -1,6 +1,11 @@
-﻿################################################################################
+﻿
+###############################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /Section-6-CSS/FIRST CSS PAGE/.vs
 /.vs
+/Section-17-nodeJS/Lesson-202-npm-setup-tutorial/node_modules
+/Section-18-Portfolio/Portfolio-Project/node_modules
+/Section-19-React-JS/Create-a-robofriends-react-app/robofriends/node_modules
+/Section-19-React-JS/Create-a-robofriends-react-app/robofriends/build'
